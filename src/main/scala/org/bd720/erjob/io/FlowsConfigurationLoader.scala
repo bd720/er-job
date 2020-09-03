@@ -1,6 +1,6 @@
 package org.bd720.erjob.io
 import java.io.{File, FileInputStream}
-import org.bd720.erjob.io.configuration.FlowsConfiguration
+import org.bd720.erjob.io.configuration.flow.FlowsConfiguration
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 import scala.collection.mutable

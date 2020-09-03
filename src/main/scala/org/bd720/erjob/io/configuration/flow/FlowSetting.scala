@@ -1,4 +1,4 @@
-package org.bd720.erjob.io.configuration
+package org.bd720.erjob.io.configuration.flow
 import scala.beans.BeanProperty
 class FlowSetting {
   def getOptionValue(key: String): Any = {
