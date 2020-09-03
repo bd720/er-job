@@ -2,7 +2,7 @@ package org.bd720.erjob.io
 import java.io.{File, FileInputStream}
 import org.bd720.erjob.io.configuration.ERJobConfiguration
 import org.bd720.erjob.io.configuration.application.ApplicationConfiguration
-import org.wumiguo.ser.common.SparkAppConfiguration
+import org.bd720.ercore.common.SparkAppConfiguration
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 object ApplicationConfigurationLoader {

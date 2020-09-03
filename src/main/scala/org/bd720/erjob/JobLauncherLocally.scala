@@ -3,9 +3,9 @@ import java.io.File
 import org.apache.spark.sql.{SaveMode, SparkSession}
 import org.bd720.erjob.io.configuration.{Input, Output, SourcePair}
 import org.bd720.erjob.io.{ERJobConfigurationLoader, FlowsConfigurationLoader}
-import org.wumiguo.ser.ERFlowLauncher
-import org.wumiguo.ser.common.SparkEnvSetup
-import org.wumiguo.ser.methods.util.CommandLineUtil
+import org.bd720.ercore.ERFlowLauncher
+import org.bd720.ercore.common.SparkEnvSetup
+import org.bd720.ercore.methods.util.CommandLineUtil
 object JobLauncherLocally extends SparkEnvSetup {
   def main(args: Array[String]): Unit = {
     log.info("start to run er job locally")

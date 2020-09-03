@@ -1,0 +1,5 @@
+flows:
+- name: EdJoin
+  options:
+  - {key: threshold, value: 1}
+  - {key: type, value: 1}
